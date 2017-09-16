@@ -18,16 +18,23 @@ There is not a huge number of people publishing content about Three.js but there
 
 These misleading articles frustrate and confuse newcomers, ruining the developer experience during those critical first hours and that will damage the reputation of what is an excellent library!
 
-## Solution
+## Recommended standards to improve
 
-Transparency around version (revision) number needs to be much more prevalent. 
+Transparency around version (revision) number needs to be much more prevalent throughout all copy relating to the library. 
 
- - _"Introduction to Three.js"_ style articles should set out to educate newcomers about how important it is to be conscious of which revision you are using
- - _"How to [something] in Three.js"_ style articles should always start with a comma-separated list of the version numbers that this code is known to work in. This will free publishers from having to go back and edit old posts.
+ - _"Introduction to Three.js"_ style articles should set out to educate newcomers about how important it is to be conscious of which revision you are using, thus preparing them for more effient debugging.
+ - _"How to [something] in Three.js"_ style articles should always start with a comma-separated list of the version numbers that the example code is known to work in. This will free publishers from having to go back and edit old posts because they will age gracefully, naturally moving into an historical context.
+ - The Three.js library should be saved in projects under a filename that contains the revision number eg. _three-r74.min.js_.
+ - StackOverflow posts should always contain a statement of which version of Three.js the poster is using. Moderators should encourage first-posters to discover this by typing `THREE.REVISION` in the console and edit their question to include it.
+
+## Encouraging adoption of standards
+
+ - The big publishers, responsible for a lot of content about Three.js should endevour to adopt the recommendations.
+ - Existing posts on StackOverflow should be edited to include revision number, thus setting a precident for future posters.
  
 ## History of releases
 
-Here's a guide to which version Three.js a post is likely to have been based on, dependant on when it was published. 
+Here's a guide to which version Three.js a tutorial/post is likely to have been based on, dependant on when it was published. 
 
  - 2011: r33 - r46
  - 2012: r47 - r54
