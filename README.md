@@ -6,19 +6,20 @@ A set of recommended standards for tutorials, posts and blogs covering technique
 
 Transparency around version (revision) number needs to be much more prevalent throughout all copy relating to the library. 
 
- - _"Introduction to Three.js"_ style articles should set out to educate newcomers about how important it is to be conscious of which revision you are using, thus preparing them for more effient debugging.
- - _"How to [something] in Three.js"_ style articles should always start with a comma-separated list of the version numbers that the example code is known to work in _(eg "Tested in r67,r68,r69,r70,r71")_. This will free publishers from having to go back and edit old posts because the content will age gracefully, naturally moving into an historical context.
+ - _"Introduction to Three.js"_ style articles should set out to educate newcomers about how important it is to be conscious of which revision you are using, thus preparing them for more efficient debugging.
+ - _"How to [something] in Three.js"_ style articles should always start with a comma-separated list of the version numbers that the example code is known to work in _(eg "Tested in r67,r68,r69,r70,r71")_. This will free publishers from having to go back and edit old posts because the content will age gracefully, naturally moving into an historical context. A comma-separated list is preferable over a range such as "r67 - r71" because it will be optimise pages to appear in search terms like _"how to rotate mesh in three.js r68"_.
+ - Developers should be encouraged to include the revision number in their search terms (dependent on the previous point being adopted). 
  - The Three.js library should be saved in projects under a filename that contains the revision number eg. _three-r74.min.js_.
  - StackOverflow posts should always contain a statement of which version of Three.js the poster is using. Moderators should encourage first-posters to discover this by typing `THREE.REVISION` in the console and edit their question to include it.
 
 ## Encouraging adoption of standards
 
- - The big publishers, responsible for a lot of content about Three.js should endevour to edit existing to adopt the recommendations or actively remove out-dated posts.
- - Existing posts on StackOverflow should be edited to include revision number, thus setting a precident for future posters.
+ - The big publishers, responsible for a lot of content about Three.js should endeavour to edit existing to adopt the recommendations or actively remove out-dated posts.
+ - Existing posts on StackOverflow should be edited to include revision number, thus setting a precedent for future posters.
 
 ## The Context
 
-Three.js is a rapidly developing library. The maintainers are releasing new versions regularly and the features available are changing drasticly. 
+Three.js is a rapidly developing library. The maintainers are releasing new versions regularly and the features available are changing drastically. 
 
 At the same time the web industry is experiencing growing demand for 3D graphics in browser and as a result, many web developers are adopting the Three.js framework for the first time. 
 
